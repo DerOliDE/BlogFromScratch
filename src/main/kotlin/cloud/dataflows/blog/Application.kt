@@ -1,4 +1,4 @@
-package cloud.dataflows
+package cloud.dataflows.blog
 
 import io.ktor.server.application.*
 
