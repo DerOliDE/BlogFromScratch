@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>BlogFromScratch</title>
+
+    <script src="static/js/htmx.min.js"></script>
+
 </head>
 <body>
-    <p>Hello {{name}}!</p>
+    <button hx-post="/greetings" hx-swap="outerHTML">
+        Click Me
+    </button>
 </body>
 </html>
